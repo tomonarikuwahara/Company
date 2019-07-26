@@ -1,0 +1,50 @@
+.bg-blue{
+	background-color: #3765B4;
+}
+/* Footer */
+.footer{
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	text-align: center;
+  	height: 30px;
+  	border-top: 5px solid #FE9114;
+}
+/* 
+   Login Page
+ */
+.company-container{
+	background-color: #3765B4;
+	color: #fff;
+    padding: 8px;
+    border-radius: 8px;
+    margin-bottom: 16px;
+}
+/* font-size */
+.label-font{
+	font-size: 20px;
+}
+/* Login Button */
+.login-btn{
+	background-color: #FE9114;
+	color:#fff;
+	font-size: 20px;
+}
+
+.inside {
+    position:absolute;
+    top:6px;
+    text-indent:10px;
+    color:#a2a2a2;
+    font-size: 25px !important;
+}
+
+.inp {
+  text-indent:20px;
+}
+/* Navbar */
+#nav-label{
+  color: #fff;
+  padding:9px 12px;
+}
