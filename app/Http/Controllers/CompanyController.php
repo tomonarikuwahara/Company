@@ -23,7 +23,7 @@ class CompanyController extends Controller
                 return view('company.employee');
             }            
         }else {
-            $errors = [$request->employee_no => trans('auth.failed')];
+            $errors = ['employee_no' => trans('auth.failed')];
             return back()->withInput($request->only('employee_no', 'remember'))
                          ->withErrors($errors);
         }

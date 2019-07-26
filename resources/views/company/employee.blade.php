@@ -1,5 +1,8 @@
 @extends('layouts.app')
 
 @section('content')
-Employee
+<div class="container">
+	<p>Employee</p>
+</div>
+
 @endsection

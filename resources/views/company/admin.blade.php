@@ -1,6 +1,7 @@
 @extends('layouts.app')
 
 @section('content')
-Admin
-
+<div class="container">
+	<p>Admin</p>
+</div>
 @endsection
